@@ -36,7 +36,7 @@
 
         <a href="{{ route('image.download') }}" class="btn btn-success mt-3">Download All Images as Zip</a>
         <br/>
-        <a href="{{ route('image.singleDownload', ['id' => 12]) }}" class="btn btn-primary mt-3">singleDownload Images as Zip</a>
+        <a href="{{ route('image.singleDownload', ['id' => 1]) }}" class="btn btn-primary mt-3"> Static Id=1 singleDownload Images as Zip</a>
     </div>
 
     <!-- Bootstrap Bundle with Popper -->
